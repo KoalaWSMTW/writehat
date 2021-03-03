@@ -31,7 +31,7 @@ div.generated-table > table {
 }
 
 div.generated-table th {
-  background-color: #6d7ae0;
+  background-color: #a6a6a6;
   font-weight: bold;
   color: white;
   padding: 12px 8px 12px 8px;
@@ -52,7 +52,7 @@ div.generated-table tr:last-child td:first-child { border-bottom-left-radius: 8p
 div.generated-table tr:last-child td:last-child { border-bottom-right-radius: 8px; }
 
 div.generated-table tr:nth-child(even) { 
-  background-color: #f8f8ff;
+  background-color: #f2f2f2;
 
 }
 
