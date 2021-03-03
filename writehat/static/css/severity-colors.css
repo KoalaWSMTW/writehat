@@ -1,17 +1,17 @@
 /*** severity colors ***/
-[finding-severity="Critical"] {
+[finding-severity="Critique"] {
   --severity-rgba: var(--purple-rgba);
 }
-[finding-severity="High"] {
+[finding-severity="Haute"] {
   --severity-rgba: var(--red-rgba);
 }
-[finding-severity="Medium"], [finding-severity="Moderate"] {
+[finding-severity="Moyenne"], [finding-severity="Moyenne"] {
   --severity-rgba: var(--orange-rgba);
 }
-[finding-severity="Low"] {
+[finding-severity="Basse"] {
   --severity-rgba: var(--yellow-rgba);
 }
-[finding-severity="Informational"] {
+[finding-severity="Informative"] {
   --severity-rgba: var(--faded-blue-rgba);
 }
 [finding-severity="Proactive"] {
