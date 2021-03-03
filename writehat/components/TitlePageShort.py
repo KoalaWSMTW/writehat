@@ -8,6 +8,6 @@ years = range(current_year-5, current_year+5)
 
 class Component(TitlePageComponent):
 
-    default_name = 'Title Page (Abridged)'
+    default_name = 'Titre de la page (Abrégé)'
     htmlTemplate = 'componentTemplates/TitlePageShort.html'
     iconType = 'fas fa-file'

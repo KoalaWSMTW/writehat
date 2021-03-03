@@ -2,7 +2,7 @@ from .base import *
 
 class Component(BaseComponent):
 
-    default_name = 'Table of Tables'
+    default_name = 'Tableau des tableaux'
     htmlTemplate = 'componentTemplates/TableOfTables.html'
     iconType = 'fas fa-list'
     iconColor = 'var(--green)'

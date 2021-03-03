@@ -57,7 +57,7 @@ class CustomerInfoComponentForm(ComponentForm):
 
 class Component(BaseComponent):
 
-    default_name = 'Customer Information'
+    default_name = 'Information client'
     htmlTemplate = 'componentTemplates/CustomerInfoComponent.html'
     fieldList = {
         'custName': StringField(templatable=False),

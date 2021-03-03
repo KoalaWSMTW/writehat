@@ -7,7 +7,7 @@ log = logging.getLogger(__name__)
 
 class Component(FindingsListComponent):
 
-    default_name = 'Findings (Abridged)'
+    default_name = 'Découvertes (Abrégée)'
     htmlTemplate = 'componentTemplates/FindingsListShort.html'
     iconType = 'fas fa-search'
     formClass = FindingsListForm

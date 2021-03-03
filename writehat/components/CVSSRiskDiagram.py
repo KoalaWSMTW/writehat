@@ -5,7 +5,7 @@ log = logging.getLogger(__name__)
 
 class Component(BaseComponent):
 
-    default_name = 'CVSS Risk Diagram'
+    default_name = 'Diagramme de risque CVSS '
     htmlTemplate = 'componentTemplates/CVSSRiskDiagram.html'
     iconType = 'fas fa-border-all'
     iconColor = 'var(--red)'

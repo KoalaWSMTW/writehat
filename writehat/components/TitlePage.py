@@ -8,14 +8,14 @@ years = range(current_year-5, current_year+5)
 
 class TitlePageForm(ComponentForm):
    # ComponentID = forms.UUIDField(label='Report ID')
-    company = forms.CharField(label='Company Name', required=False)
-    assessmentType = forms.CharField(label='Report Title', required=False)
-    reportDate = forms.DateTimeField(widget=forms.SelectDateWidget(years=years), label='Report Date', required=False)
+    company = forms.CharField(label='Nom de la société', required=False)
+    assessmentType = forms.CharField(label='Titre du rapport', required=False)
+    reportDate = forms.DateTimeField(widget=forms.SelectDateWidget(years=years), label='Date du rapport', required=False)
 
 
 class Component(BaseComponent):
 
-    default_name = 'Title Page'
+    default_name = 'Titre de la page'
     formClass = TitlePageForm
     fieldList = {
         'company': StringField(),

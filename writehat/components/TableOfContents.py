@@ -2,7 +2,7 @@ from .base import *
 
 class Component(BaseComponent):
 
-    default_name = 'Table of Contents'
+    default_name = 'Table des matières'
     htmlTemplate = 'componentTemplates/TableOfContents.html'
     iconType = 'fas fa-list'
     iconColor = 'var(--blue)'

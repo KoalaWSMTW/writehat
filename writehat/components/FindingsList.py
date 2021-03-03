@@ -16,7 +16,7 @@ class FindingsListForm(ComponentForm):
 
 class Component(BaseComponent):
 
-    default_name = 'Findings'
+    default_name = 'Découvertes'
     htmlTemplate = 'componentTemplates/FindingsList.html'
     iconType = 'fas fa-search-plus'
     iconColor = 'var(--cvss-color)'
