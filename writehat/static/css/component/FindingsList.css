@@ -151,17 +151,17 @@ div.finding-content > div.impact ul li {
 }
 
 
-div.finding div.finding-content > div.category::before           { content: "Category" !important; }
-div.finding div.finding-content > div.affected-resources::before { content: "Affected Resources" !important; }
+div.finding div.finding-content > div.category::before           { content: "Catégorie" !important; }
+div.finding div.finding-content > div.affected-resources::before { content: "Ressources affectées" !important; }
 div.finding div.finding-content > div.description::before        { content: "Description" !important; }
-div.finding div.finding-content > div.background::before         { content: "Background" !important; }
-div.finding div.finding-content > div.remediation::before        { content: "Remediation" !important; }
-div.finding div.finding-content > div.references::before         { content: "References" !important; }
+div.finding div.finding-content > div.background::before         { content: "Description" !important; }
+div.finding div.finding-content > div.remediation::before        { content: "Remédiation" !important; }
+div.finding div.finding-content > div.references::before         { content: "Références" !important; }
 
 /* CVSS SPECIFIC */
 
-div.finding div.finding-content > div.tools-used::before         { content: "Tools Used" !important; }
-div.finding div.finding-content > div.poc::before                { content: "Proof of Concept" !important; }
+div.finding div.finding-content > div.tools-used::before         { content: "Outils utilisés" !important; }
+div.finding div.finding-content > div.poc::before                { content: "Preuve de concept" !important; }
 
 /* DREAD SPECIFIC */
 
