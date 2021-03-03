@@ -205,11 +205,11 @@ class CVSS:
         '''
 
         severities = {
-            (9.0, 10.0): "Critical",
-            (7.0, 8.9): "High",
-            (4.0, 6.9): "Medium",
-            (0.1, 3.9): "Low",
-            (0.0, 0.0): "Informational"
+            (9.0, 10.0): "Critique",
+            (7.0, 8.9): "Haute",
+            (4.0, 6.9): "Moyenne",
+            (0.1, 3.9): "Basse",
+            (0.0, 0.0): "Informative"
         }
 
         for (low, high), severity in severities.items():
